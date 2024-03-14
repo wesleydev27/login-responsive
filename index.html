@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="login-form">
+        <h2>Faça o seu login</h2>
+        <div class="input-group">
+          <label for="username">Usuario</label>
+          <input
+            type="email"
+            id="username"
+            name="username"
+            required
+            autocomplete="off"
+            placeholder="E-mail"
+            maxlength="50"
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            autocomplete="off"
+            placeholder="Sua senha"
+            maxlength="16"
+          />
+        </div>
+        <button type="submit">Login</button>
+
+        <div class="cadastro-login">
+          <a href="#"><p class="nocad">Não tem cadastro?</p></a>
+          <a href="#"><p class="nocad">Esqueceu a senha</p></a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
